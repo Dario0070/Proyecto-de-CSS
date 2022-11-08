@@ -1,0 +1,69 @@
+.heading {
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.intro {
+    padding-left: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+    color: whitesmoke;
+    background-color: #2F5A78;
+    height: 350px;
+}
+.intro img {
+    border-radius: 50px;
+    position: relative;
+    left: 45%;
+    bottom: -10px;
+}
+body {
+    background-color: #eeeeee;
+    font-family: 'Gill Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.prof {
+    font-weight: lighter;
+    font-size: 20px;
+}
+.contactinfo {
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 15px;
+}
+.subheading {
+    color: #2F5A78;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#p1 {
+    background-image: url('img/IMG_0587.JPG');
+}
+.icon {
+    color: #2F5A78;
+}
+.skill ul li {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+}
+.skill ul li .skill_prog {
+    width: 60%;
+    height: 5px;
+    position: relative;
+}
+.skill ul li .skill_prog span {
+    position: absolute;
+    height: 100%;
+    background: #2F5A78;
+    padding-right: 50px;
+}
+.skill_name {
+    width: 4px;
+}
+.skill_per {
+    margin-right: 15px;
+}
